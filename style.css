@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100vh !important;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 616px;
+    height: 616px;
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.cell {
+    width: 152px;
+    height: 152px;
+    border: black 1px solid;
+}
+
+.number-cell {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
