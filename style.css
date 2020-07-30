@@ -37,7 +37,6 @@ body {
 }
 
 .number-cell {
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
